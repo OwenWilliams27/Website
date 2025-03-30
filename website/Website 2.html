@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Williams | Portfolio</title>
+    <meta name="description" content="Owen Williams' Portfolio Website">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #c5c5c5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+        }
+
+        /* Main Container */
+        .container {
+            
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #094f1e;
+            font-size: 40px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Buttons */
+        .button {
+            background-color: #094f1e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+            display: inline-block;
+        }
+        @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+        .button:hover {
+            background-color: #0a6b28;
+            animation: shake 0.5s ease-in-out;
+
+        }
+
+        /* Image */
+        img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+img:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 255, 150, 0.8); /* Green glow effect */
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="About Me.html">About Me</a>
+        <a href="Interests.html">Interests</a>
+        <a href="https://www.linkedin.com/in/owenwilliams27/" target="_blank">LinkedIn</a>
+        <a href="Owen G Williams Resume visa.pdf" target="_blank">Resume</a>
+    </nav>
+
+    <div class="container">
+        <h2><b>Owen Williams</b></h2>
+        <p>Welcome to my professional portfolio website. Here you can find my work, experience, and background.</p>
+
+        <a href="About Me.html" class="button">About Me</a>
+        <a href="Interests.html" class="button">Interests</a>
+
+        <img src="https://www.thurstontalk.com/wp-content/uploads/2014/04/Mount-Rainier-Sunset.jpg" alt="Mt. Rainier">
+    </div>
+
+    <footer>
+        &copy; 2025 Owen Williams | All Rights Reserved
+    </footer>
+
+</body>
+</html>
